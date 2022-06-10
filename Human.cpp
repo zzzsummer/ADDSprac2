@@ -6,7 +6,7 @@ Human::Human()
 
 char Human::makeMove(){
         char move;
-        std::cout << "Enter move\n";
+        
         std::cin >> move;
         if (move == 'r' || move == 'R'){
             return 'r';
