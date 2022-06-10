@@ -6,6 +6,6 @@ Computer::Computer()
 
 char Computer::makeMove(){
         char move;
-        move = rand() % 3 + 'r';
+        move = 'r';
         return move;
     }
