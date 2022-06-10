@@ -4,14 +4,8 @@
 class Computer
 {
 public:
-    Computer(){
-        move = ' ';
-    }
-    char makeMove(){
-        char move;
-        move = rand() % 3 + 'r';
-        return move;
-    }
+    Computer();
+    char makeMove();
 private:
     char move;
 };
